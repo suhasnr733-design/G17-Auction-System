@@ -1,0 +1,39 @@
+{
+  "name": "auction-system-blockchain",
+  "version": "1.0.0",
+  "description": "Decentralized Auction System using Ethereum Smart Contracts",
+  "author": "4CB23CS160 & 4CB23CS161",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "test:coverage": "npx hardhat coverage",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:localhost": "npx hardhat run scripts/deploy.js --network localhost",
+    "interact": "npx hardhat run scripts/interact.js",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "size": "npx hardhat size-contracts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "dotenv": "^17.4.2",
+    "hardhat": "^2.28.6",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5"
+  },
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhasnr733-design/G17-Auction-System.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhasnr733-design/G17-Auction-System/issues"
+  },
+  "homepage": "https://github.com/suhasnr733-design/G17-Auction-System#readme"
+}
